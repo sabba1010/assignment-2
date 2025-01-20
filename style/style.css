@@ -399,11 +399,11 @@ margin-bottom: 170px;
 
 /* Media Query for responsive design */
 @media screen and (max-width: 576px) {
-    header{
+    .header{
        justify-content: space-between;
        box-sizing: border-box;
-       border-bottom: ;
-       
+       border-bottom:0.5px solid rgb(254, 163, 1); 
+       width: 390px;
     }
     
     .hd-ul {
@@ -505,5 +505,7 @@ hr{
 .banner-img{
     width: 336.58px;
 }
+
+
 
 }
