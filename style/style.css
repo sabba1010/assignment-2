@@ -401,10 +401,11 @@ margin-bottom: 170px;
 @media screen and (max-width: 576px) {
     header{
        justify-content: space-between;
+       box-sizing: border-box;
+       border-bottom: ;
+       
     }
-    .hr{
-        display: block;
-    }
+    
     .hd-ul {
         display: none;  /* Hide the navigation on small screens */
         position: absolute;
