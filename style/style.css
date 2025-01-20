@@ -228,6 +228,116 @@ width: 60px;
 height: 60px;
 color: white;
 }
+.marquee {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.marquee p {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* Stories */
+.stories{
+    background:
+    linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 0.3) 100%);
+}
+.s-tit{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+
+}
+.s-box-1{
+border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 540.27px;
+height: 630.52px;
+border: none;
+}
+
+.s-box-1 img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.s1-t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.s-box-1 h1{
+    color: rgb(0, 0, 0);
+font-size: 21px;
+font-weight: 700;
+line-height: 38.35px;
+
+}
+.s-box-1 p{
+    margin-left: 30px;
+    color: rgb(102, 102, 102) ;
+font-size: 14px;
+font-weight: 500;
+line-height: 28.76px;
+
+
+}
+.s-boxs{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 80px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.sb2{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.sb2 img{
+    border-radius: 16px 16px 0px 0px;
+}
+.hide ,.grid {
+    margin-bottom: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -301,6 +411,23 @@ line-height: 40px;
     .arr{
       display: none;
     }
+   .hide{
+    display: none;
+   }
+   .sb2{
+    width: 173.09px;
+height: 179.59px ;
+   }
+   .sb2 img{
+    width: 173.27px;
+height: 105.39px;
+   }
+.sbox-tit{
+    font-size: 9.13px;
+font-weight: 700;
+line-height: 17.12px;
+margin-left: 5px;
+}
 
 
 
