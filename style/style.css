@@ -56,6 +56,7 @@ header {
     border-radius: 12px;
     background: rgb(254, 163, 1);
     border: none;
+    color: #ffffff;
 }
 
 /* Hamburger menu */
@@ -263,6 +264,7 @@ color: white;
     line-height: 57.5px;
 
 }
+
 .s-box-1{
 border-radius: 16px;
 background: rgb(255, 255, 255);
@@ -324,6 +326,60 @@ background: rgb(255, 255, 255);
 .hide ,.grid {
     margin-bottom: 180px;
 }
+.box-btn{
+    width: 174.51px;
+height: 47.93px;
+border-radius: 47.93px;
+border: none;
+background: rgb(60, 216, 232);
+margin-top: -150px;
+margin-left: 40px;
+color: white;
+}
+.sbox-tit{
+    color: rgb(0, 0, 0);
+font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+letter-spacing: 0%;
+margin-left: 30px;
+
+}
+.grid-btn{
+    width: 179.44px;
+height: 38.35px;
+left: 38.35px;
+top: 157.81px;
+border-radius: 47.93px;
+border: none;
+background: rgb(149, 178, 38);
+margin-top: -200px;
+margin-left: 25px;
+color: white;
+}
+.gb-2{
+    background-color: rgb(93, 88, 240);
+}
+.gb-4{
+    width: 127.44px;
+height: 38.35px;
+}
+.m-btn{
+    border: none;
+    border-radius: 12px;
+color: #ffffff;
+background: rgb(17, 17, 17);
+width: 197px;
+height: 50px;
+margin-bottom: 59px;
+}
+.m-mbtn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
 /* Footer */
 .footer{
     display: flex;
@@ -512,5 +568,18 @@ font-weight: 400;
 line-height: 20px;
 text-align: left;
 }
+.grid-btn{
+    width: 103.91px;
+height: 22.83px;
+margin-top: -50px;
+font-size: 9.13px;
+}
+.g-p{
+    font-size: 9.13px;
+font-weight: 500;
+text-align: center;
+}
+
+
 
 }
